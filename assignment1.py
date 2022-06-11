@@ -22,7 +22,7 @@ def registration():
             pass_arr = []
             for i in db:
                 if i is None:
-                    print("asdf")
+                    continue
                 else:
                     x, y = i.split(", ")
                     y = y.strip()
